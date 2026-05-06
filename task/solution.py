@@ -1,7 +1,7 @@
 """
 Candidate Task: 
-Write a script that downloads all employee data from the paginated API 
-and performs some analysis (e.g., calculate average salary per department).
+Write a script that downloads all employee data from the paginated API,
+parses it, and uses this data to implement functions in EmployeeAnalysis
 """
 
 import requests

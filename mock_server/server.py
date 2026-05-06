@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request
 def create_app():
     app = Flask(__name__)
 
-    # Sample data: 100 employees
+    # Sample data: 90 employees
     employees = []
     departments = ["Engineering", "HR", "Marketing", "Sales", "Product"]
 
