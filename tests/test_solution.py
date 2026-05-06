@@ -33,12 +33,10 @@ def test_get_top_3_highest_paid_employees(analysis):
     
     assert len(top_3) == 3
     
-    # IDs should be 90, 89, 88
     ids = [e["id"] for e in top_3]
     assert 90 in ids
     assert 89 in ids
     assert 88 in ids
     
-    # Salaries should be 59000, 58900, 58800
     salaries = sorted([e["salary"] for e in top_3], reverse=True)
     assert salaries == [59000, 58900, 58800]
